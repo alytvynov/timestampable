@@ -1,0 +1,23 @@
+{
+    "name": "alytvynov/timestampable",
+    "description": "Timestampable entities",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anton Lytvynov",
+            "email": "lytvynov.anton@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Timestampable\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6",
+        "doctrine/orm": "2.5.*",
+        "jms/serializer-bundle": "2.*"
+    }
+}
