@@ -1,16 +1,19 @@
-#Timestampable entities
+Traits for classes and data manipulations.
+=================
+
 Common dates for all entities : 
 * create
 * update 
 
-##Doctrine
+Trait created for
 * doctrine ORM
 
-##JMS Serializer
+Use JMS Serializer
 * uses `time` group, 
 * could be useful for serialization to hide / show this data.
 
-##Installation
+Installation
+--------
 ```
 composer require alytvynov/timestampable
 ```
